@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparkIt - Acenda Seu Estilo</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header {
+            background-image: url('https://via.placeholder.com/1920x1080'); /* Imagem hero */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        header h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 60px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 10px 0 20px 0;
+        }
+
+        .cta-button {
+            background-color: #800080;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #a020f0;
+        }
+
+        .products-section, .custom-section, .testimonials-section, .contact-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #2e2e2e;
+        }
+
+        .products-section h2, .custom-section h2, .testimonials-section h2, .contact-section h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .products-section img, .custom-section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .testimonial {
+            max-width: 300px;
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #000;
+            color: #999;
+            padding: 20px;
+            text-align: center;
+        }
+
+        a {
+            color: #800080;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Acenda Seu Estilo</h1>
+    <p>Vista-se com Autenticidade</p>
+    <button class="cta-button">Explore Nossa Coleção</button>
+</header>
+
+<section class="products-section">
+    <h2>Blusas em Destaque</h2>
+    <div>
+        <img src="https://via.placeholder.com/300x300" alt="Produto 1">
+        <img src="https://via.placeholder.com/300x300" alt="Produto 2">
+        <img src="https://via.placeholder.com/300x300" alt="Produto 3">
+        <img src="https://via.placeholder.com/300x300" alt="Produto 4">
+    </div>
+</section>
+
+<section class="custom-section">
+    <h2>Crie Seu Próprio Estilo</h2>
+    <p>Personalize suas blusas de esportes, como Fórmula 1, futebol e musculação.</p>
+    <img src="https://via.placeholder.com/600x400" alt="Personalização de Camisa">
+</section>
+
+<section class="testimonials-section">
+    <h2>Depoimentos</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"A SparkIt transformou meu guarda-roupa! Estilo único e autêntico!"</p>
+            <p>- João</p>
+        </div>
+        <div class="testimonial">
+            <p>"As camisetas personalizadas são incríveis! Super confortáveis e de alta qualidade."</p>
+            <p>- Maria</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section">
+    <h2>Entre em Contato</h2>
+    <p>Ganhe 10% de desconto em sua primeira compra ao se inscrever na nossa newsletter.</p>
+    <form action="#">
+        <input type="email" placeholder="Seu e-mail" required>
+        <button class="cta-button" type="submit">Cadastrar</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 SparkIt - Todos os direitos reservados.</p>
+    <p><a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
+</footer>
+
+</body>
+</html>
